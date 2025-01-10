@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    width: 60%;
+    height: 500px;
+    border: 1px solid #222;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+animation : anim 3s linear infinte
+    
+}
+
+@keyframe anim{
+
+100%{
+  tranform : transition 30s
+}
+}
